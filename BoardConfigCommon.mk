@@ -71,7 +71,8 @@ BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 
 #-----------------------------------------------------#
 
-
+TARGET_USES_INTERACTION_BOOST := true
+ 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
