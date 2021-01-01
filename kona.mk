@@ -79,15 +79,19 @@ PRODUCT_PACKAGES += \
 
 # Cryptfs
 PRODUCT_PACKAGES += \
-    libcryptfs_hw \
-    vendor.qti.hardware.cryptfshw@1.0
-
+    libcryptfs_hw 
+    
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
 
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-parts.xml
+
+# Cryptfs
+PRODUCT_PACKAGES += \
+    libcryptfs_hw \
+    vendor.qti.hardware.cryptfshw@1.0
 
 # Display
 PRODUCT_PACKAGES += \
