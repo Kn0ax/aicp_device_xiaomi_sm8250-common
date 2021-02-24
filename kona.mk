@@ -81,6 +81,11 @@ PRODUCT_PACKAGES += \
 # Cryptfs
 PRODUCT_PACKAGES += \
     libcryptfs_hw 
+
+# Configstore
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.capabilityconfigstore@1.0
+
     
 # Device-specific settings
 PRODUCT_PACKAGES += \
