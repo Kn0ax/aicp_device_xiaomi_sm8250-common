@@ -59,8 +59,7 @@
 
      <bool name="config_supportScreenOffFod">true</bool>
 
-     <!-- Shows the required view for in-display fingerprint -->
-     <bool name="config_supportsInDisplayFingerprint">true</bool>
+
     
      <!-- Whether to show a custom view for FOD -->
      <bool name="config_needCustomFODView">true</bool>
@@ -103,10 +102,6 @@
      
     <!-- Flag indicating whether we should enable the adaptive sleep.-->
     <bool name="config_adaptive_sleep_available">true</bool>
-
-    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
-         in hardware. -->
-    <bool name="config_setColorTransformAccelerated">true</bool>
      
               <!-- List of regexpressions describing the interface (if any) that represent tetherable
          Wifi interfaces.  If the device doesn't want to support tethering over Wifi this
@@ -527,9 +522,6 @@
 
     <!-- Specifies the maximum burn-in offset vertically. -->
     <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
-    
-    <!-- Whether device supports in-display fingerprint when screen is turned off -->
-    <bool name="config_supportsInDisplayFingerprintGesture">true</bool>
     
     <!-- Whether device supports in-display fingerprint -->
     <bool name="config_supportsInDisplayFingerprint">true</bool>
