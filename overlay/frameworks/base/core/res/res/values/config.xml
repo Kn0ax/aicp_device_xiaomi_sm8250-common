@@ -511,5 +511,7 @@
          autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
     
-    
+     <!-- Whether Hearing Aid profile is supported -->
+    <bool name="config_hearing_aid_profile_supported">true</bool>
+
 </resources>
